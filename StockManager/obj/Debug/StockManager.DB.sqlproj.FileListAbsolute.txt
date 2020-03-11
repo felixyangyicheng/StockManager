@@ -1,0 +1,10 @@
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\bin\Debug\StockManager.DB.dacpac
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\bin\Debug\StockManager.dll
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\bin\Debug\StockManager.pdb
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\obj\Debug\StockManager.DB.sqlprojAssemblyReference.cache
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\obj\Debug\Model.xml
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\obj\Debug\refactor.xml
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\obj\Debug\postdeploy.sql
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\obj\Debug\predeploy.sql
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\obj\Debug\StockManager.dll
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager\obj\Debug\StockManager.pdb

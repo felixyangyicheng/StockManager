@@ -1,0 +1,16 @@
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.csprojAssemblyReference.cache
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.FormManageCategory.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.MainMenu.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.Properties.Resources.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.csproj.GenerateResource.cache
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\bin\Debug\StockManager.WF.exe.config
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\bin\Debug\StockManager.WF.exe
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\bin\Debug\StockManager.WF.pdb
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.exe
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.pdb
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.FormManageProduct.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.FormManageStockEntry.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.FormManageStockExit.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.FormResearchProduct.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.Formlogin.resources
+C:\Users\felix\Desktop\V2-EST\StockManager\StockManager.WF\obj\Debug\StockManager.WF.FormManageStaff.resources
