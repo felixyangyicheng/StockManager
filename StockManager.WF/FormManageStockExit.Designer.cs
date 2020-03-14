@@ -32,11 +32,13 @@
             this.buttonMinimize = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
             this.labelManageStockExit = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listOfProduct = new System.Windows.Forms.ListBox();
             this.buttonSell = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBoxProductName = new System.Windows.Forms.TextBox();
             this.labelManipulator = new System.Windows.Forms.Label();
             this.labelStaff = new System.Windows.Forms.Label();
+            this.textBoxProductID = new System.Windows.Forms.TextBox();
+            this.textBoxQuantity = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonMinimize
@@ -75,36 +77,37 @@
             this.labelManageStockExit.TabIndex = 2;
             this.labelManageStockExit.Text = "Gestion de sortie de stock";
             // 
-            // listBox1
+            // listOfProduct
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(52, 95);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(319, 251);
-            this.listBox1.TabIndex = 3;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listOfProduct.FormattingEnabled = true;
+            this.listOfProduct.Location = new System.Drawing.Point(52, 95);
+            this.listOfProduct.Name = "listOfProduct";
+            this.listOfProduct.Size = new System.Drawing.Size(319, 251);
+            this.listOfProduct.TabIndex = 3;
+            this.listOfProduct.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // buttonSell
             // 
             this.buttonSell.BackColor = System.Drawing.Color.IndianRed;
             this.buttonSell.Font = new System.Drawing.Font("Candara Light", 15F);
             this.buttonSell.ForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.buttonSell.Location = new System.Drawing.Point(436, 191);
+            this.buttonSell.Location = new System.Drawing.Point(436, 244);
             this.buttonSell.Name = "buttonSell";
             this.buttonSell.Size = new System.Drawing.Size(224, 38);
             this.buttonSell.TabIndex = 5;
             this.buttonSell.Text = "Vendre ce porduit";
             this.buttonSell.UseVisualStyleBackColor = false;
+            this.buttonSell.Click += new System.EventHandler(this.buttonSell_Click);
             // 
-            // textBox1
+            // textBoxProductName
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.textBox1.Font = new System.Drawing.Font("Candara Light", 15F);
-            this.textBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.textBox1.Location = new System.Drawing.Point(436, 144);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(224, 32);
-            this.textBox1.TabIndex = 6;
+            this.textBoxProductName.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxProductName.Font = new System.Drawing.Font("Candara Light", 15F);
+            this.textBoxProductName.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBoxProductName.Location = new System.Drawing.Point(436, 144);
+            this.textBoxProductName.Name = "textBoxProductName";
+            this.textBoxProductName.Size = new System.Drawing.Size(224, 32);
+            this.textBoxProductName.TabIndex = 6;
             // 
             // labelManipulator
             // 
@@ -128,17 +131,40 @@
             this.labelStaff.TabIndex = 8;
             this.labelStaff.Text = "label2";
             // 
+            // textBoxProductID
+            // 
+            this.textBoxProductID.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxProductID.Font = new System.Drawing.Font("Candara Light", 15F);
+            this.textBoxProductID.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBoxProductID.Location = new System.Drawing.Point(436, 98);
+            this.textBoxProductID.Name = "textBoxProductID";
+            this.textBoxProductID.Size = new System.Drawing.Size(224, 32);
+            this.textBoxProductID.TabIndex = 9;
+            // 
+            // textBoxQuantity
+            // 
+            this.textBoxQuantity.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.textBoxQuantity.Font = new System.Drawing.Font("Candara Light", 15F);
+            this.textBoxQuantity.ForeColor = System.Drawing.SystemColors.Window;
+            this.textBoxQuantity.Location = new System.Drawing.Point(436, 196);
+            this.textBoxQuantity.Name = "textBoxQuantity";
+            this.textBoxQuantity.Size = new System.Drawing.Size(100, 32);
+            this.textBoxQuantity.TabIndex = 10;
+            this.textBoxQuantity.TextChanged += new System.EventHandler(this.textBoxQuqntity_TextChanged);
+            // 
             // FormManageStockExit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(136)))), ((int)(((byte)(204)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBoxQuantity);
+            this.Controls.Add(this.textBoxProductID);
             this.Controls.Add(this.labelStaff);
             this.Controls.Add(this.labelManipulator);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxProductName);
             this.Controls.Add(this.buttonSell);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listOfProduct);
             this.Controls.Add(this.labelManageStockExit);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonMinimize);
@@ -158,10 +184,12 @@
         private System.Windows.Forms.Button buttonMinimize;
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.Label labelManageStockExit;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listOfProduct;
         private System.Windows.Forms.Button buttonSell;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBoxProductName;
         private System.Windows.Forms.Label labelManipulator;
         private System.Windows.Forms.Label labelStaff;
+        private System.Windows.Forms.TextBox textBoxProductID;
+        private System.Windows.Forms.TextBox textBoxQuantity;
     }
 }
